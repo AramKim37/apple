@@ -10,6 +10,9 @@ const Model = () => {
     color: ["#8F8A81", "#FFE789", "#6F6C64"],
     img: yellowImg,
   });
+
+  // camera control for the model view
+
   useGSAP(() => {
     gsap.to("#heading", { y: 0, opacity: 1 });
   });
