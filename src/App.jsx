@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
 import Model from "./components/Model";
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Highlights />
       <Model />
+      <Footer />
     </main>
   );
 }
